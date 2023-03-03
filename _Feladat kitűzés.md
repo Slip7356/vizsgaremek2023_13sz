@@ -21,13 +21,21 @@
 - [Szilágyi Brendon Dominik](#szilágyi-brendon-dominik)
 
 # Ütemezés
-## 2023.02.20-26
+## 2023.02.20-26 környezet, adatbázis
 - github saját repó létrehozás
 - adatbázis tervezés
 - diagram
 - felöltés teszt adatokkal (tárolt eljárással)
 - biztonsági mentés
 - fejlesztési környezet létrehozás
+## 2023.03.03-12 backend
+- backend integrálása
+- backend megértése és kipróbálása
+- backend saját feladatra szabása
+    - users aktualizlása
+    - minden tábla CRUD
+    - speciáis lekérdezések
+    - lekérdezések  kipróbálása és dokumentálása: `document_database/projektnev.sql`
 
 # Általános feladtok
 A feladatot az alábbi előírásoknak megfelelően kell elkészíteni
@@ -63,7 +71,7 @@ A feladatot az alábbi előírásoknak megfelelően kell elkészíteni
                 - Adatgerenerálás: tárolt eljárások, függvények
                 - A backendben használt sql lekérdezések
             - biztonsági mentés
-        - `backend` mappa
+        - `server` mappa
             - Legyen egy adat szerver
             - Autentikációs szerver
             - npm csomagkezelés
@@ -84,6 +92,7 @@ A feladatot az alábbi előírásoknak megfelelően kell elkészíteni
 
 - Autentikáció kötelező javasolt: jwt token
     - users tábla
+![users tábla](_sources/Users_tabla/users.jpg)
     - Regisztráció
     - Login
     - Logout
@@ -98,18 +107,18 @@ Projekt elnevezése: diakmunka
 
 
 # Boros Tamás
-Projekt elnevezése: elofizetes
+Projekt elnevezése: webaruhazBillentyuk
 ![adatbázis modell](_sources/Elofiztes/elofizetes.jpg)
 
 
 # Busi Alex
-Projekt elnevezése: fenymasolas
-![adatbázis modell](_sources/Fenymasolas/fenymasolas.jpg)
+Projekt elnevezése: historia
+![adatbázis modell](_sources/Historia/historia.jpg)
 
 
 # Farkas Bence
-Projekt elnevezése: sportverseny
-![adatbázis modell](_sources/Sportverseny/sportverseny.jpg)
+Projekt elnevezése: webaruhazAutok
+![adatbázis modell]()
 
 
 # Földi Bence
@@ -123,8 +132,8 @@ Projekt elnevezése: film
 
 
 # Nagy Gábor Mihály
-Projekt elnevezése: leltar
-![adatbázis modell](_sources/)
+Projekt elnevezése: sportverseny
+![adatbázis modell](_sources/Sportverseny/sportverseny.jpg)
 
 
 # Nagy Gergő
@@ -153,7 +162,7 @@ Projekt elnevezése: szamlazo
 
 
 # Szabó Levente
-Projekt elnevezése: webaruhaz
+Projekt elnevezése: webaruhazRuha
 ![adatbázis modell](_sources/)
 
 
